@@ -25,12 +25,14 @@
       text-align: center;
     }
     form {
-      margin: 20px auto;
+      margin: auto;
       width: 50%;
       background-color: #fff;
       padding: 20px;
-      border-radius: 5px;
+      /* border-radius: 5px; */
       box-shadow: 0 3px 6px rgba(0,0,0,.1);
+      display: grid;
+      text-align: center;
     }
 
     label {
@@ -84,16 +86,18 @@
       position: fixed;
     	top: 10px;
   		right: 10px;
-    	background-color: #4CAF50;
+      background-color: #f44336;
     	color: white;
   		font-size: 16px;
     	padding: 10px 20px;
     	border: none;
   		border-radius: 4px;
     	cursor: pointer;
+      float: right;
     }
     #back-btn:hover {
-    	background-color: #3e8e41;
+      background-color: #da190b;
+      color: white;
 	  }
   </style>
 </head>
@@ -101,13 +105,13 @@
   <h1>Web Notes</h1>
   
   <form method="post" action="add_note.php">
-    <label for="title">Title:</label>
+    <label for="title">Title</label>
     <input type="text" id="title" name="title">
     <br>
-    <label for="content">Content:</label>
+    <label for="content">Content</label>
     <textarea id="content" name="content"></textarea>
     <br>
-    <button type="submit">Add Note</button>
+    <button type="submit" name="add_note">Add Note</button>
   </form>
   <form method="post" action="show_note.php">
     <button type="submit">Show Note</button>
