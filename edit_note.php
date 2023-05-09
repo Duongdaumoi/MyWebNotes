@@ -51,7 +51,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Edit Note</title>
+	<title>Edit note</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -112,7 +112,7 @@
 	</style>
 </head>
 <body>
-	<h1>Edit Note</h1>
+	<h1>Edit note</h1>
 	<form method="POST">
 		<input type="hidden" name="note_id" value="<?php echo $note_id; ?>">
 		<label for="note_title">Title</label>

@@ -111,16 +111,16 @@
     <label for="content">Content</label>
     <textarea id="content" name="content"></textarea>
     <br>
-    <button type="submit" name="add_note">Add Note</button>
+    <button type="submit" name="add_note">Add</button>
   </form>
   <form method="post" action="show_note.php">
-    <button type="submit">Show Note</button>
+    <button type="submit">Show</button>
   </form>
   <form method="post" action="find_note.php">
-    <button type="submit">Find Note</button>
+    <button type="submit">Search</button>
   </form>
   <form method="post">
-    <button type="submit" name="logout" id="back-btn" class="btn btn-back">Logout</button>
+    <button type="submit" name="logout" id="back-btn" class="btn btn-back">Log out</button>
   </form>
 </body>
 </html>
